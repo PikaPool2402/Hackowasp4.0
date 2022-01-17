@@ -1,0 +1,67 @@
+.team-container{
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-box{
+    width: 22%;
+
+    border: 2px solid #333;
+    border-radius: 15px;
+
+    margin: 15px 20px 15px 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.potrait{
+    border-radius: 50%;
+    padding: 5px 0px 15px 0px;
+}
+
+.team-box a{
+    text-decoration: none;
+    color: #fff;
+
+    padding: 2px;
+}
+
+.team-box a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.team-box a:active{
+    text-decoration: none;
+    color: #fff;
+}
+
+.team-box a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+.team-screen{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-card{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.767);
+    border-radius: 16px;
+    height: 70vh;
+    width: 120vh;
+    box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.808);
+    overflow: scroll;
+    position: relative;
+}
